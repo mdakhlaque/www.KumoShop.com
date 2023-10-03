@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 10px;
+    }
+
+    .buy {
+        width: 75%;
+        margin: 5rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #j-two {
+        display: block;
+    }
+
+    .buy-left {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .parent {
+        width: 79%;
+        position: relative;
+    }
+
+    .jolly {
+        width: 100%;
+        position: absolute;
+        display: none;
+    }
+
+    .jolly img {
+        width: 100%;
+    }
+
+    .click {
+        width: 19%;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        justify-items: center;
+
+    }
+
+    .click img {
+        width: 100%;
+        margin: .2rem 0;
+    }
+
+
+    .buy-right {
+        flex-basis: 50%;
+    }
+</style>
+
+<body>
+    <div class="buy">
+        <div class="buy-left">
+            <div class="parent">
+                <div class="jolly" id="j-two">
+                    <img src="images/j2.jpg">
+                </div>
+                <div class="jolly" id="j-three">
+                    <img src="images/j3.jpg">
+                </div>
+                <div class="jolly" id="j-one">
+                    <img src="images/j1.jpg">
+                </div>
+                <div class="jolly" id="j-four">
+                    <img src="images/j4.jpg">
+                </div>
+            </div>
+
+            <div class="click">
+                <img src="images/j2.jpg" id="j-two-btn">
+                <img src="images/j1.jpg" id="j-one-btn">
+                <img src="images/j3.jpg" id="j-three-btn">
+                <img src="images/j4.jpg" id="j-four-btn">
+            </div>
+        </div>
+
+        <div class="buy-right">
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="JavaScript/by.js"></script>
+</body>
+
+</html>
